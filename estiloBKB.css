@@ -1,0 +1,204 @@
+body{
+    background-color: #f5f3f0;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding:30px;
+}
+.cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 200px;
+    height: 52.58px;
+    left: 301px;
+    top: 30px;
+    bottom: 34.42;
+}
+#logo2{
+    width: 169px;
+    height: 65px;
+    left: 1461px;
+    top: 24px;
+    bottom: 28px;
+}
+.banner img{
+    width: 100%;
+}
+.produtos{
+    padding-top: 74px;
+    
+}
+.produtos .listaProdutos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.produtos .cards{
+    background-color: #ffffff;
+    border: 2px solid #f5ebdc;
+    border-radius: 15px;
+    width: 233px;
+    margin-bottom: 15px;
+    left: 301px;
+    top: 368px;
+    text-align: center;
+    align-items: center;
+}
+.produtos .cards img{
+    margin: 22px 41.5px 28px ;
+    
+}
+.produtos .cards h3{
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #502314;
+    margin:28px 40.5px 28px 40.5px;
+    min-height: 40px;
+    max-width: 160px;
+    font-weight: 700;
+}
+.produtos .cards p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000; 
+}
+.produtos .cards button{
+    background: #F5F3F0;
+    border:none;
+    border-radius: 8px;
+    width: 177px;
+    height: 41px;
+    color: #2D2D2D;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+.compras{
+    background: #502314;
+    border-radius: 32px 32px 0px 0px;
+}
+.compras .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.compras .container h3{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color:  #F7F5F0;
+    margin-top: 27px;
+    margin-bottom: 18px;
+}
+.compras .container p{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 30px;
+    color:  #F7F5F0;
+    margin-bottom: 23px;
+}
+.compraFinalizada  {
+  background: #FFFFFF;   
+  
+}
+.compraFinalizada .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.compraFinalizada .container .produtoComprado{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.compraFinalizada .container .produtoComprado img{
+    width: 150px;
+    height: 119.47px;
+    left: 346px;
+    top: 1381px;
+    margin: 51px 30px 54.3px 45px ;
+}
+.compraFinalizada .container .produtoComprado h3{
+   width: 177px;
+   height: 30px;
+   color: #502314;
+   line-height: 30px;
+   font-weight: 700px;
+   font-size: 20px;
+   margin-top: 30px;   
+}
+.compraFinalizada .container .totalProduto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.compraFinalizada .container .totalProduto p{
+    color: #2d2d2d;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 30px;
+
+   
+}
+.compraFinalizada .container .totalProduto .lixinho{
+    margin-top: 30px;
+    background: #E6E6E6;
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 51px;
+    margin-left: 43px;
+    cursor: pointer;
+}
+.compraFinalizada .container .submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.compraFinalizada .container .submit .finaliza{
+    width: 219px;
+    height: 51px;
+    background-color: #DB3B1D;
+    border: 4px solid #DB3B1D;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 400px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.compraFinalizada .container .submit .cancela{
+    width: 219px;
+    height: 51px;
+    border: 4px solid #DB3B1D;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 22px;
+    text-align: center;
+    color: #DB3B1D;
+    margin-top: 38px;
+    cursor: pointer;
+}
